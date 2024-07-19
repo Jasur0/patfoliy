@@ -1,0 +1,151 @@
+@media screen and (max-width: 1080px) {
+  .home__left_name {
+    font-size: 40px;
+    & span {
+      font-size: 25px;
+    }
+  }
+  .home__rigth {
+    width: 400px;
+    height: 400px;
+  }
+  .sites {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contact {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer__email {
+    width: 50%;
+
+    & input,
+    button {
+      width: 100%;
+    }
+  }
+  .footer__coment {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .home {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .about {
+    flex-direction: column;
+    gap: 60px;
+
+    &__left {
+      width: 70%;
+    }
+    &__right {
+      width: 70%;
+    }
+  }
+  .sites {
+    gap: 60px;
+    & a {
+      width: 60%;
+      height: auto;
+      padding-bottom: 40px;
+    }
+  }
+  .contact {
+    gap: 60px;
+    &__box {
+      width: 60%;
+      height: auto;
+      padding-bottom: 40px;
+    }
+  }
+  .footer__coment {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .home {
+    margin-top: 50px;
+  }
+  .nav h3 {
+    font-size: 26px;
+  }
+  .home__left_name {
+    font-size: 35px;
+    & span {
+      font-size: 20px;
+    }
+  }
+  .home__rigth {
+    width: 350px;
+    height: 350px;
+  }
+  .about {
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 50px;
+
+    &__left {
+      width: 80%;
+    }
+    &__right {
+      width: 80%;
+    }
+  }
+  .sites {
+    margin-top: 120px;
+    gap: 60px;
+    & h3 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    & a {
+      width: 80%;
+      height: auto;
+      padding-bottom: 50px;
+    }
+  }
+  .contact {
+    gap: 60px;
+
+    & h4 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    &__box {
+      width: 80%;
+      height: auto;
+      padding-bottom: 50px;
+    }
+  }
+  .footer {
+    & .container {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+
+    &__email {
+      gap: 10px;
+
+      & input, button {
+        width: 100%;
+      }
+    }
+
+    &__camet {
+      height: 150px;
+      width: 100%;
+    }
+  }
+}
