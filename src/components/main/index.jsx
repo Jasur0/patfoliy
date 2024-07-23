@@ -85,7 +85,7 @@ function Main() {
           </a>
           <a href="https://blacnote.netlify.app/" className="sites__box">
             <img src={sayt3} alt="" />
-            <h3>Todo List</h3>
+            <h3>Ob Havo</h3>
             <p>obhavo sayt hohlagan mamlakatingizni yozib obhavosini ko'ring</p>
           </a>
         </section>

@@ -124,6 +124,7 @@
 }
 
 .sites {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,7 +148,6 @@
     flex-direction: column;
     text-align: center;
     width: 350px;
-    height: 350px;
     color: #fff;
     background-color: #202026;
     padding: 30px;

@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="nav">
         <h3>
-          Jasurbek <span>FRONTENT</span>
+          Jasurbek <span>FRONTEND</span>
         </h3>
     </div>
   );
