@@ -68,6 +68,7 @@ function Main() {
               <span>JavaScript</span>
               <span>React</span>
               <span>Next</span>
+              <span>Git</span>
             </div>
           </div>
         </section>

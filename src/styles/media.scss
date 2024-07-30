@@ -1,4 +1,4 @@
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1113px) {
   .home__left_name {
     font-size: 40px;
     & span {
@@ -85,8 +85,8 @@
     }
   }
   .home__rigth {
-    width: 350px;
-    height: 350px;
+    width: 95vw;
+    height: auto;
   }
   .about {
     flex-direction: column;
@@ -139,13 +139,13 @@
       gap: 10px;
 
       & input, button {
-        width: 100%;
+        width: 70vw;
       }
     }
 
-    &__camet {
+    &__coment {
       height: 150px;
-      width: 100%;
+      width: 70vw;
     }
   }
 }

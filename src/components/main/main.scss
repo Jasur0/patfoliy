@@ -114,7 +114,11 @@
 
       & span {
         border-radius: 5px;
-        padding: 10px 18px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
         border: 1px solid #6fdf00;
         color: #fff;
         font-family: sans-serif;

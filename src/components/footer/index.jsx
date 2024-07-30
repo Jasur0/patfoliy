@@ -3,11 +3,15 @@ import "./footer.scss";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <form className="container">
         <div className="footer__email">
-          <input type="text" placeholder="Ism" />
-          <input type="text" placeholder="Familiya" />
-          <input type="email" placeholder="Sizning elektiron manzilingiz" />
+          <input type="text" placeholder="Ism" required />
+          <input type="text" placeholder="Familiya" required />
+          <input
+            type="email"
+            placeholder="Sizning elektiron manzilingiz"
+            required
+          />
           <button>Xabaringizni yuboring</button>
         </div>
         <textarea
@@ -16,7 +20,7 @@ function Footer() {
           placeholder="Xabaringiz"
           required
         ></textarea>
-      </div>
+      </form>
     </footer>
   );
 }
